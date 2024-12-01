@@ -1,0 +1,26 @@
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid rgb(219, 219, 219);
+    border-right: none;
+    list-style: none;
+    height: 40px;
+}
+li{ 
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+li:hover{
+    border: 1px solid rgb(17, 37, 224);
+    cursor: pointer;
+
+}
+
+
+
